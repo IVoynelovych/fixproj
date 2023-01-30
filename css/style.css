@@ -1,0 +1,826 @@
+/* reset */
+
+:root{ 
+  --acsent:#8D86C9; 
+} 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* style */
+
+body {
+  background-color: #232323;
+
+}
+/* main html */
+
+header {
+  border-bottom: 1px solid #ffffff;
+  padding: 30px 0;
+  position:absolute;
+  width: 100%;
+  background: none;
+
+
+}
+
+/* container */
+
+.container {
+ max-width: 1296px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header .container{
+  display: flex;
+align-items: center;
+gap: 40px;
+}
+/* nav-menu */
+
+.nav-menu {
+  display: flex;
+  color: #ffffff;
+  position: relative;
+  gap: 40px;
+}
+
+/* block html */
+.boxs {
+  max-width: 1040px;
+  border: 1px solid #ffffff;
+}
+
+.show {
+  display: inline-block;
+  padding: 12px 28px;
+
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: 1px solid #ffffff;
+}
+.show:focus {
+  border: 10px solid aqua;
+  outline: 1px solid coral;
+}
+.nav-menu-item .link{
+  color: #ffffff;
+
+
+
+}
+
+
+.fotos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+.fotone{
+  background: url(../images/tennisfirst.jpg);
+  width: 376px;
+  height: 450px;
+  padding: 20px;
+  border:1px solid#F7ECE1 ;
+  background-repeat:no-repeat ;
+  background-position: center;
+  position: relative;
+}
+.fotsec{
+  background: url(../images/tennissecond.jpg);
+  width: 376px;
+  height: 450px;
+  padding: 20px;
+  border:1px solid#F7ECE1 ;
+  background-repeat:no-repeat ;
+  background-position: center;
+  position: relative;
+}
+.fotthird{
+  background: url(../images/tennisthird.jpg);
+  width: 376px;
+  height: 450px;
+  padding: 20px;
+  border:1px solid#F7ECE1 ;
+  background-repeat:no-repeat ;
+  background-position: center;
+  position: relative;
+}
+.fototxt{
+  color: #ffffff;
+  position:absolute ;
+  bottom: 40px;
+  width: 200px;
+  margin-left: 90px;
+  height: 76px;
+  text-align: center;
+  line-height: 1.4;
+}
+.pic{
+  margin: 150px 0;
+}
+.btn{
+  color: #ffffff;
+  display: block;
+  background-color: #8D86C9;
+  width: 100%;
+  padding: 15px 31px;
+  border: none;
+  text-align: left;
+
+}
+.pric{
+  width: 526px;
+  position: relative;
+}
+.pri{
+  margin: 75px 0;
+}
+.hsign{
+  display: block;
+  width: 18px;
+  height: 20px;
+  fill: #ffffff;
+  position: absolute;
+  top: 17px;
+  right: 21px;
+}
+
+.try{
+  max-width: 526px;
+}
+/* 
+.pric:not(:last-child){
+  margin-bottom: 31px;
+} */
+.pric + .pric{
+  margin-top: 31px;
+}
+.price{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+  background-color: #ffffff;
+  margin-top: 150px;
+  margin-bottom: 151px;
+}
+.nn{
+
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 140%;
+/* or 50px */
+
+
+/* text */
+
+color: #333333;
+}
+.cafe{
+  margin: 60px 0 ;
+  padding:25px;
+  border: 1px solid #F7ECE1;
+  position: relative;
+}
+footer{
+  background-color: #F7ECE1;
+}
+.lasttxt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  position: relative;
+}
+.pictu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+
+}
+.pictore{
+
+  padding: 0 15px;
+  border: 1px solid #F7ECE1;
+}
+.names{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+  font-family: 'Gilroy';
+  text-align: center;
+
+
+color: #333333
+}
+.pic{
+  display: block;
+  background-color: #ffffff;
+}
+.squad{
+  background-color: #ffffff;
+  position: relative;
+  width: 1296px;
+height: 523px;
+margin-left: auto;
+margin-right: auto;
+}
+.cap{
+  width: 330px;
+height: 50px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.4;
+margin-bottom: 75px;
+position: absolute;
+}
+.sgnleft{
+  display: block;
+  width: 17px;
+  height: 15px;
+  fill: #ffffff;
+  margin: 15px 14px 15px 9px;
+}
+.sgnright{
+  display: block;
+  width: 17px;
+  height: 15px;
+  fill: #ffffff;
+  margin: 15px 14px 15px 9px;
+}
+.team{
+  display: block;
+  text-align: center;
+
+}
+.teamname{
+  width: 196px;
+  height: 58px;
+  text-align: center;
+
+}
+.teamtxt{
+  width: 196px;
+height: 40px;
+text-align: center;
+}
+.def{
+  padding:0 104px;
+  color: #333333;
+  opacity: 0.3;
+}
+header{
+  background:url("./images/logo.jpg");
+}
+.higt{
+  color: #F7ECE1;
+  background-color: #8D86C9;
+  height: 151px;
+  width: 315px ;
+  padding: 35px 0 40px 35px;
+  font-weight: 700;
+font-size: 24px;
+border: none;
+text-align: left;
+position: relative;
+
+}
+.svglink{
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  fill: #ffffff;
+  bottom: 54px;
+  left: 255px;
+  z-index: 2;
+
+}
+
+.highlst{
+  display: flex;
+  gap: 12px;
+  margin-top: 323px;
+
+  
+  
+
+}
+.higt span{
+  display: block;
+  margin-bottom:17px;
+  font-weight: 600;
+font-size: 18px;
+
+}
+.strt{
+  color: #ffffff;
+  padding: 0;
+  font-size: 48px;
+line-height: 1.4;
+width: 636px;
+
+
+
+}
+.hero{
+  background: url(../images/logo.jpg);
+  margin-top: 0;
+  padding-top:200px;
+  height: 1000px;
+  background-repeat: no-repeat;
+
+}
+body{
+  background-color: #ffffff;
+}
+.news{
+  background:url(../images/cort.jpg);
+  height: 263px;
+  background-repeat: no-repeat;
+}
+.new{
+  color: #ffffff;
+  text-align: center;
+  padding: 136px;
+}
+.newsbtn{
+  color: #ffffff;
+  background-color: #8D86C9;
+  border: none;
+  margin-top: 20px;
+  padding:10px 20px;
+}
+.newblock{
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  text-align: center;
+
+}
+.newsblock{
+  border: 1px solid #F7ECE1;
+  width: 416px;
+  height: 400px;
+  text-align: center;
+  padding: 15px 40px;
+}
+.newlst{
+  
+  width: 1920px;
+  text-align: right;
+}
+.newstxt{
+  display:block;
+  width: 336px;
+  height: 87px;
+}
+.lastidia{
+  width: 336px;
+  margin-right: 0px;
+  padding-left: 40px;
+  margin-top: 15px;
+}
+.date{
+  display: block;
+  opacity: 0.5;
+  width: 336px;
+height: 20px;
+margin: 0;
+}
+.newbtn{
+  padding-right: 239px;
+}
+.icon{
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+
+  opacity: 0;
+  background-color:#8D86C9;
+  transform: translate(0, -50%);
+  transition:transform 250ms, opacity 2;
+  
+
+}
+ .nav-menu:hover .icon{
+  transform: translate(-100%, -50%);
+  opacity: 1;
+} 
+.nav-menu:hover{
+  color: aqua;
+}
+.cafename{
+  color: white;
+  position: absolute;
+  bottom: 60px;
+  left: 65px;
+
+}
+.allcafe{
+  position: relative;
+    width: 636px;
+    height: 330px;
+    background: url(../images/cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #F7ECE1;
+    background-size: 586px 270px;
+  
+ 
+}
+.cafebtn{
+  background-color: #8D86C9;
+  width: 45px;
+  height: 45px;
+  border: none;
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  cursor: pointer;
+
+}
+.cafebtnsec{
+  background-color: #8D86C9;
+  width: 45px;
+  height: 45px;
+  border: none;
+  position: absolute;
+  top: 3px;
+  right: 60px;
+  cursor: pointer;
+  
+  
+}
+.cafetxt{
+  position: relative;
+  margin-bottom: 75px;
+}
+.cafen{
+  width: 636px;
+  height: 455px;
+}
+.squadteam{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  bottom: 0;
+}
+.teamcard{
+  text-align: center;
+  width: 196px;
+}
+.teamnamed{
+  border: 1px solid #F7ECE1;
+  padding: 0 15px;
+  width: 166px;
+  height: 240px;
+  margin-bottom: 25px;
+}
+.squadnames{
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+  margin-bottom: 15PX;
+}
+.game{
+  background-color:#F7ECE1 ;
+  width: 636px;
+  height: 654px;
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 440px;
+  margin-left: auto;
+}
+.gamestxt{
+  margin-bottom: 25px;
+}
+.games{
+  margin-bottom: 35px;
+  width: 430px;
+height: 134px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+margin-left: auto;
+text-align: left;
+}
+
+.sporttxt{
+  margin-bottom:25px; 
+}
+.texts{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+margin-bottom: 20px;
+position: relative;
+width: 400px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+margin-left: auto;
+text-align: left;
+}
+.texts::before{
+  position: absolute;
+  content: "";
+  display: block;
+  height: 8px;
+  width: 8px;
+  background-color: #8D86C9;
+  margin-right: 10px;
+  top: 5px;
+  left: -23px;
+}
+.spot{
+  width: 1074px;
+  height: 654px;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+.gamepic{
+  position: absolute;
+  top: 70px;
+  bottom: 70px;
+  right: 550px;
+  z-index: 1;
+}
+.sportlst{
+  padding-top: 70px;
+  padding-right: 60px;
+}
+.newshead{
+  display: flex;
+}
+.svgyt{
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-left: 90px;
+  fill: white;
+
+}
+.svgvk{
+  display: block;
+  width: 36px;
+  height: 36px;
+  fill: white
+
+}
+.svgytend{
+  display: block;
+  width: 36px;
+  height: 36px;
+  fill: #8D86C9;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+.svgvkend{
+  display: block;
+  width: 36px;
+  height: 36px;
+  fill: #8D86C9;
+  margin-top: 20px;
+}
+.svgtgend{
+  display: block;
+  width: 36px;
+  height: 36px;
+  fill: #8D86C9;
+  margin-top: 20px;
+}
+
+
+  .svgtrigle{ 
+    width: 16px; 
+    height: 20px; 
+    position: absolute; 
+    top: 22px; 
+    left: 24px; 
+    right: 24px; 
+    bottom: 22px; 
+    fill: white;
+} 
+.svgvideo::before{ 
+    position: absolute; 
+    content: ''; 
+    left: -8px; 
+    right: -8px; 
+    top: -8px; 
+    bottom: -8px; 
+    border-radius: 50%; 
+    background-color: transparent; 
+    border: 1px solid white; 
+} 
+.svg-div{ 
+    position: relative; 
+    display: block; 
+    margin: 40px; 
+} 
+.svgvideo{ 
+    padding: 0; 
+    position: relative; 
+    background-color: var(--acsent); 
+    width: 64px; 
+    height: 64px; 
+    border-radius: 50%; 
+    border: transparent; 
+}
+.svgpart{
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}
+.svgtxt{
+  color: #ffffff;
+  width: 158px;
+height: 50px;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.4;
+}
+.about{
+  background: url(../images/aboutclub.jpg);
+  height: 263px;
+  background-repeat: no-repeat;
+
+}
+.clubnew{
+  position: relative;
+  width: 1290px;
+  height: 610px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.corttxt{
+  position: absolute;
+  color: #333333;
+  line-height: 1.4;
+}
+.cortback{
+  background: url(../images/clubcort.jpg);
+  width: 1256px;
+  height: 450px;
+  position: relative;
+  border: 1px solid #F7ECE1;
+  padding: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.clubpic{
+  position: absolute;
+  left: 0;
+  bottom: 70px;
+  z-index: 2;
+}
+.clubtxt{
+  position: relative;
+  height: 85px;
+}
+.cortbtn{
+  padding: 10px 20px;
+  position: absolute;
+  background-color: #8D86C9;
+  color: #ffffff;
+  border: none;
+  bottom: 65px;
+  left: 70px;
+  width: 145px;
+height: 45px;
+}
+.aboutclub{
+  margin-top: 150px;
+  width: 1296px;
+  height: 764px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-club-text{
+  background-color: #F7ECE1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 110;
+  width: 856px;
+height: 654px;
+}
+.clubname{
+  width: 650px;
+height: 100px;
+text-align: left;
+line-height: 1.4;
+margin-left: auto;
+margin-right: auto;
+margin-top: 70px;
+font-weight: 700;
+font-size: 36px;
+margin-bottom: 40px;
+}
+.clubfish{
+  line-height: 1.4;
+  margin-bottom: 25px;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+font-size: 14px;
+text-align: center;
+}
+.disctription{
+  font-weight: 700;
+font-size: 14px;
+text-align: left;
+width: 124px;
+height: 40px;
+margin-left: 150px;
+position: relative;
+}
+.disctriptionsec{
+  font-weight: 700;
+font-size: 14px;
+text-align: left;
+width: 182px;
+height: 40px;
+position: relative;
+}
+.disctriptionthird{
+  font-weight: 700;
+font-size: 14px;
+text-align: left;
+width: 124px;
+height: 40px;
+position: relative;
+}
+.corts{
+  text-align: center;
+  display: flex;
+  gap: 88px;
+}
+.disctription::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 45px;
+  background: url(../images/seven.svg);
+  position: absolute;
+  left: -54px;
+  
+}
+.disctriptionsec::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 45px;
+  background: url(../images/numfour.svg);
+  position: absolute;
+  left: -54px;
+}
+.disctriptionthird::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 45px;
+  background: url(../images/numthree.svg);
+  position: absolute;
+  left: -54px;
+}
