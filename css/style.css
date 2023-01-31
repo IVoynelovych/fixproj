@@ -29,7 +29,12 @@ body {
 
 }
 /* main html */
-
+.mainlogo{
+  display: block;
+  width: 153px;
+  height: 46px;
+  fill: #ffffff;
+}
 header {
   border-bottom: 1px solid #ffffff;
   padding: 30px 0;
@@ -45,21 +50,29 @@ header {
 .container {
  max-width: 1296px;
   margin: 0 auto;
-  position: relative;
+
+}
+.newblock .container{
+  width: 1920px;
 }
 
 header .container{
   display: flex;
 align-items: center;
 gap: 40px;
+position: relative;
 }
 /* nav-menu */
 
 .nav-menu {
   display: flex;
   color: #ffffff;
-  position: relative;
+  
   gap: 40px;
+}
+.nav-menu-item{
+  font-family: 'Gilroy';
+  position: relative;
 }
 
 /* block html */
@@ -97,47 +110,34 @@ gap: 40px;
   gap:20px;
 }
 .fotone{
-  background: url(../images/tennisfirst.jpg);
-  width: 376px;
-  height: 450px;
-  padding: 20px;
+  padding: 25px 20px;
   border:1px solid#F7ECE1 ;
-  background-repeat:no-repeat ;
-  background-position: center;
+  
   position: relative;
 }
 .fotsec{
-  background: url(../images/tennissecond.jpg);
-  width: 376px;
-  height: 450px;
-  padding: 20px;
+  padding: 25px 20px;
   border:1px solid#F7ECE1 ;
-  background-repeat:no-repeat ;
-  background-position: center;
   position: relative;
 }
 .fotthird{
-  background: url(../images/tennisthird.jpg);
-  width: 376px;
-  height: 450px;
-  padding: 20px;
+  padding: 25px 20px;
   border:1px solid#F7ECE1 ;
-  background-repeat:no-repeat ;
-  background-position: center;
   position: relative;
 }
 .fototxt{
+  font-family: 'Gilroy';
   color: #ffffff;
   position:absolute ;
   bottom: 40px;
-  width: 200px;
+  width: 250px;
   margin-left: 90px;
   height: 76px;
   text-align: center;
   line-height: 1.4;
 }
 .pic{
-  margin: 150px 0;
+  padding: 150px 0;
 }
 .btn{
   color: #ffffff;
@@ -150,8 +150,12 @@ gap: 40px;
 
 }
 .pric{
+  font-family: 'Gilroy';
   width: 526px;
   position: relative;
+}
+.pr{
+  font-family: 'Gilroy';
 }
 .pri{
   margin: 75px 0;
@@ -198,6 +202,9 @@ line-height: 140%;
 /* text */
 
 color: #333333;
+}
+.txtt{
+  font-family: 'Gilroy';
 }
 .cafe{
   margin: 60px 0 ;
@@ -251,6 +258,7 @@ margin-left: auto;
 margin-right: auto;
 }
 .cap{
+  font-family: 'Gilroy';
   width: 330px;
 height: 50px;
 font-weight: 700;
@@ -264,14 +272,14 @@ position: absolute;
   width: 17px;
   height: 15px;
   fill: #ffffff;
-  margin: 15px 14px 15px 9px;
+  margin: 15px 14px 15px 14px;
 }
 .sgnright{
   display: block;
   width: 17px;
   height: 15px;
   fill: #ffffff;
-  margin: 15px 14px 15px 9px;
+  margin: 15px 14px 15px 14px;
 }
 .team{
   display: block;
@@ -290,14 +298,19 @@ height: 40px;
 text-align: center;
 }
 .def{
+  font-family: 'Gilroy';
   padding:0 104px;
   color: #333333;
   opacity: 0.3;
+}
+.finishtxt{
+  font-family: 'Gilroy';
 }
 header{
   background:url("./images/logo.jpg");
 }
 .higt{
+  font-family: 'Gilroy';
   color: #F7ECE1;
   background-color: #8D86C9;
   height: 151px;
@@ -314,7 +327,7 @@ position: relative;
   display: block;
   width: 20px;
   height: 20px;
-  position: relative;
+  position: absolute;
   fill: #ffffff;
   bottom: 54px;
   left: 255px;
@@ -339,6 +352,7 @@ font-size: 18px;
 
 }
 .strt{
+  font-family: 'Gilroy';
   color: #ffffff;
   padding: 0;
   font-size: 48px;
@@ -352,7 +366,6 @@ width: 636px;
   background: url(../images/logo.jpg);
   margin-top: 0;
   padding-top:200px;
-  height: 1000px;
   background-repeat: no-repeat;
 
 }
@@ -365,16 +378,18 @@ body{
   background-repeat: no-repeat;
 }
 .new{
+  font-family: 'Gilroy';
   color: #ffffff;
   text-align: center;
   padding: 136px;
 }
 .newsbtn{
+  font-family: 'Gilroy';
   color: #ffffff;
   background-color: #8D86C9;
   border: none;
   margin-top: 20px;
-  padding:10px 20px;
+  padding:0px 20px 5px;
 }
 .newblock{
   display: flex;
@@ -384,32 +399,32 @@ body{
   margin-top: 80px;
   margin-bottom: 120px;
   text-align: center;
+  width: 1344px;
 
 }
 .newsblock{
+  box-sizing: border-box;
   border: 1px solid #F7ECE1;
   width: 416px;
-  height: 400px;
-  text-align: center;
+  height: 512px;
+  text-align: left;
   padding: 15px 40px;
+  margin: 0;
 }
-.newlst{
-  
-  width: 1920px;
-  text-align: right;
-}
+
 .newstxt{
   display:block;
   width: 336px;
   height: 87px;
 }
 .lastidia{
+  font-family: 'Gilroy';
   width: 336px;
   margin-right: 0px;
-  padding-left: 40px;
   margin-top: 15px;
 }
 .date{
+  font-family: 'Gilroy';
   display: block;
   opacity: 0.5;
   width: 336px;
@@ -433,7 +448,7 @@ margin: 0;
   
 
 }
- .nav-menu:hover .icon{
+ .nav-menu-item:hover .icon{
   transform: translate(-100%, -50%);
   opacity: 1;
 } 
@@ -441,6 +456,7 @@ margin: 0;
   color: aqua;
 }
 .cafename{
+  font-family: 'Gilroy';
   color: white;
   position: absolute;
   bottom: 60px;
@@ -460,6 +476,7 @@ margin: 0;
  
 }
 .cafebtn{
+  padding: 0;
   background-color: #8D86C9;
   width: 45px;
   height: 45px;
@@ -471,6 +488,7 @@ margin: 0;
 
 }
 .cafebtnsec{
+  padding: 0;
   background-color: #8D86C9;
   width: 45px;
   height: 45px;
@@ -509,40 +527,46 @@ margin: 0;
   margin-bottom: 25px;
 }
 .squadnames{
+  font-family: 'Gilroy';
   font-weight: 600;
   font-size: 21px;
   line-height: 1.4;
   margin-bottom: 15PX;
 }
+.discteam{
+  font-family: 'Gilroy';
+}
 .game{
+  box-sizing: border-box;
   background-color:#F7ECE1 ;
   width: 636px;
   height: 654px;
-  position:absolute;
+  position:relative;
   top: 0;
-  right: 0;
-  bottom: 0;
-  left: 440px;
-  margin-left: auto;
+  margin: 0 109px 0 auto;
+  text-align: left;
+  padding: 70px 60px 84px 146px;
 }
 .gamestxt{
+  font-family: 'Gilroy';
   margin-bottom: 25px;
 }
 .games{
+  font-family: 'Gilroy';
   margin-bottom: 35px;
-  width: 430px;
-height: 134px;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.4;
 margin-left: auto;
-text-align: left;
+
 }
 
 .sporttxt{
+  font-family: 'Gilroy';
   margin-bottom:25px; 
 }
 .texts{
+  font-family: 'Gilroy';
 font-weight: 400;
 font-size: 14px;
 line-height: 1.4;
@@ -567,41 +591,35 @@ text-align: left;
   left: -23px;
 }
 .spot{
-  width: 1074px;
-  height: 654px;
+  padding-bottom: 150px;
   text-align: center;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 150px;
 }
 .gamepic{
   position: absolute;
-  top: 70px;
-  bottom: 70px;
-  right: 550px;
-  z-index: 1;
-}
-.sportlst{
-  padding-top: 70px;
-  padding-right: 60px;
+  top: 50%;
+  transform: translate(-100%,-50%);
+  left: 86px;
 }
 .newshead{
   display: flex;
+  gap: 190px;
 }
 .svgyt{
   display: block;
   width: 36px;
   height: 36px;
-  margin-left: 90px;
   fill: white;
+  position: absolute;
+  transform: translate(100%,-25%);
 
 }
 .svgvk{
   display: block;
   width: 36px;
   height: 36px;
-  fill: white
+  fill: white;
+  position: absolute;
+  transform: translate(110%,-25%);
 
 }
 .svgytend{
@@ -669,6 +687,7 @@ text-align: left;
   margin-top: 60px;
 }
 .svgtxt{
+  font-family: 'Gilroy';
   color: #ffffff;
   width: 158px;
 height: 50px;
@@ -691,6 +710,7 @@ line-height: 1.4;
   margin-right: auto;
 }
 .corttxt{
+  font-family: 'Gilroy';
   position: absolute;
   color: #333333;
   line-height: 1.4;
@@ -717,6 +737,7 @@ line-height: 1.4;
   height: 85px;
 }
 .cortbtn{
+  font-family: 'Gilroy';
   padding: 10px 20px;
   position: absolute;
   background-color: #8D86C9;
@@ -726,6 +747,9 @@ line-height: 1.4;
   left: 70px;
   width: 145px;
 height: 45px;
+}
+.clubcap{
+  font-family: 'Gilroy';
 }
 .aboutclub{
   margin-top: 150px;
@@ -745,6 +769,7 @@ height: 45px;
 height: 654px;
 }
 .clubname{
+  font-family: 'Gilroy';
   width: 650px;
 height: 100px;
 text-align: left;
@@ -757,6 +782,7 @@ font-size: 36px;
 margin-bottom: 40px;
 }
 .clubfish{
+  font-family: 'Gilroy';
   line-height: 1.4;
   margin-bottom: 25px;
   width: 650px;
@@ -767,6 +793,7 @@ font-size: 14px;
 text-align: center;
 }
 .disctription{
+  font-family: 'Gilroy';
   font-weight: 700;
 font-size: 14px;
 text-align: left;
@@ -776,6 +803,7 @@ margin-left: 150px;
 position: relative;
 }
 .disctriptionsec{
+  font-family: 'Gilroy';
   font-weight: 700;
 font-size: 14px;
 text-align: left;
@@ -784,6 +812,7 @@ height: 40px;
 position: relative;
 }
 .disctriptionthird{
+  font-family: 'Gilroy';
   font-weight: 700;
 font-size: 14px;
 text-align: left;
