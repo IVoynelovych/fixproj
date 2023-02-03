@@ -20,7 +20,7 @@
 
     <header class="newshead">
       <div class="container">
-        <a href="./index.html">
+        <a href="./index.html" class="logobtn">
         <svg class="mainlogo">
           <use href="./images/svgicon.svg#icon"></use>
         </svg></a>
@@ -40,14 +40,16 @@
           </ul>
           
         </nav>
-        <a href="">
-          <svg class="svgyt">
-            <use href="./images/youtube.svg#yt"></use>  
-          </svg></a>
-          <a href="">
+        <ul class="svgicon"> 
+          <li><a href="">
+            <svg class="svgyt">
+              <use href="./images/youtube.svg#yt"></use>  
+            </svg></a></li>
+          <li><a href="">
             <svg class="svgvk">
               <use href="./images/vk.svg#vk"></use>
-            </svg></a>
+            </svg></a></li>
+        </ul>
       </div>
     </header>
     <main>
@@ -76,10 +78,9 @@
         <div class="container">
           <ul class="fotos">
             <li class="fotone">
-              <img src="./images/tennisfirst.jpg" alt="" width="374" height="448" style="display: block;"><h3 class="fototxt">5 летних
-              грунтовых кортов</h3></li>
+              <img src="./images/tennisfirst.jpg" alt="" width="374" height="448" style="display: block;"><h3 class="fototxt">5 летних грунтовых кортов</h3></li>
             <li class="fotsec">
-              <img src="./images/tennissecond.jpg" alt="" width="374" height="448" style="display: block;"><h3 class="fototxt">Зал с покрытием “Искусственная трава”</h3></li>
+              <img src="./images/tennissecond.jpg" alt="" width="374" height="448" style="display: block;"><h3 class="fototxtt">Зал с покрытием “Искусственная трава”</h3></li>
             <li class="fotthird">
               <img src="./images/tennisthird.jpg" alt="" width="374" height="448" style="display: block;"><h3 class="fototxt">Зал с покрытием “Хард”</h3></li>          
           </ul>
@@ -115,12 +116,12 @@
           <ul class="squadteam">
             <li class="teamcard">
               <div class="teamnamed"><img src="./images/first.jpg" alt="" width="166" height="240"></div>
-              <h3 class="squadnames">Pulvinar aliquam</h3>
+              <h3 class="squadnames"> Pulvinar aliquam</h3>
               <p class="discteam">Arcu elit massa amet turpis vel consequat pellentesque sit. </p>
             </li>
             <li class="teamcard">
               <div class="teamnamed"><img src="./images/sec.jpg" alt="" width="166" height="240"></div>
-              <h3 class="squadnames">Pretium odio</h3>
+              <h3 class="squadnames"> Pretium odio</h3>
               <p class="discteam">Bibendum aliquam volutpat nisl a duis in nisi. In sed commodo lorem morbi quis. </p>
             </li>
             <li class="teamcard">
@@ -140,7 +141,7 @@
             </li>
             <li class="teamcard">
               <div class="teamnamed"><img src="./images/six.jpg" alt="" width="166" height="240"></div>
-              <h3 class="squadnames">Sed erat</h3>
+              <h3 class="squadnamesse"> Sed erat</h3>
               <p class="discteam">Quis ullamcorper pretium lacus risus tellus dolor etiam. </p>
             </li>
           </ul>
@@ -178,6 +179,7 @@
     <footer>
       <section>
         <div class="end">
+          <div class="container">
           <ul class="lasttxt">
             <li class="def"><a href="" class="link">2022 © Усі права захищені.</a></li>
             <li class="finishtxt"><a href="./index.html" class="link">Главная</a></li>
@@ -187,9 +189,10 @@
               <li class="finishtxt"><a href="" class="link">Детский теннис</a></li>
               <li class="finishtxt"><a href="" class="link">Галерея</a></li>
               <li class="finishtxt"><a href="" class="link">Цены</a></li>
-              <li class="finishtxt"><a href="" class="link">Контакты</a></li>
               <li class="finishtxt"><a href="./block.html" class="link">Новини</a></li>
-              <li class="finishtxt" ><a href="">
+          </ul>
+          <ul class="iconend">
+            <li class="finishtxt" ><a href="">
               <svg class="svgytend">
                 <use href="./images/youtube.svg#yt"> </use>  
               </svg>
@@ -210,6 +213,7 @@
                 </a>
               </li>
           </ul>
+        </div>
         </div>
       </section>
     </footer>

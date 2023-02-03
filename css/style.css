@@ -3,6 +3,12 @@
 :root{ 
   --acsent:#8D86C9; 
 } 
+html{
+  box-sizing: border-box;
+}
+html::after,::before{
+  box-sizing:border-box ;
+}
 h1,
 h2,
 h3,
@@ -34,6 +40,7 @@ body {
   width: 153px;
   height: 46px;
   fill: #ffffff;
+  
 }
 header {
   border-bottom: 1px solid #ffffff;
@@ -53,24 +60,30 @@ header {
 
 }
 .newblock .container{
-  width: 1920px;
+  width: 1296px;
+  margin: 0 auto;
 }
 
 header .container{
   display: flex;
 align-items: center;
-gap: 40px;
+
+
+
 position: relative;
 }
 /* nav-menu */
 
 .nav-menu {
+  margin-left:124px;
   display: flex;
   color: #ffffff;
-  
   gap: 40px;
 }
 .nav-menu-item{
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
   font-family: 'Gilroy';
   position: relative;
 }
@@ -129,12 +142,27 @@ position: relative;
   font-family: 'Gilroy';
   color: #ffffff;
   position:absolute ;
-  bottom: 40px;
-  width: 250px;
-  margin-left: 90px;
-  height: 76px;
   text-align: center;
+  width: 243px;
+height: 76px;
+  bottom: 64px;
   line-height: 1.4;
+  font-weight: 700;
+  font-size: 27px;
+  left: 87px;
+}
+.fototxtt{
+  font-family: 'Gilroy';
+  color: #ffffff;
+  position:absolute ;
+  text-align: center;
+  width: 307px;
+height: 76px;
+  bottom: 64px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-size: 27px;
+  left: 55px;
 }
 .pic{
   padding: 150px 0;
@@ -150,11 +178,16 @@ position: relative;
 
 }
 .pric{
+  font-weight: 600;
+font-size: 21px;
+line-height: 1.4;
   font-family: 'Gilroy';
   width: 526px;
   position: relative;
 }
 .pr{
+  font-weight: 700;
+font-size: 36px;
   font-family: 'Gilroy';
 }
 .pri{
@@ -184,7 +217,7 @@ position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 160px;
+  gap: 134px;
   background-color: #ffffff;
   margin-top: 150px;
   margin-bottom: 151px;
@@ -204,6 +237,8 @@ line-height: 140%;
 color: #333333;
 }
 .txtt{
+  font-weight: 700;
+font-size: 36px;
   font-family: 'Gilroy';
 }
 .cafe{
@@ -219,7 +254,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:20px;
+  gap:40px;
   position: relative;
 }
 .pictu{
@@ -274,6 +309,11 @@ position: absolute;
   fill: #ffffff;
   margin: 15px 14px 15px 14px;
 }
+.iconend{
+  display: flex;
+  margin-left: 107px;
+  gap: 15px;
+}
 .sgnright{
   display: block;
   width: 17px;
@@ -281,9 +321,19 @@ position: absolute;
   fill: #ffffff;
   margin: 15px 14px 15px 14px;
 }
+.logobtn{
+  width: 153px;
+  height: 46px;
+}
 .team{
   display: block;
   text-align: center;
+
+}
+.svgicon{
+  display: flex;
+  gap: 15px;
+  margin-left: 85px;
 
 }
 .teamname{
@@ -297,14 +347,23 @@ position: absolute;
 height: 40px;
 text-align: center;
 }
+.end .container{
+  display: flex;
+}
 .def{
   font-family: 'Gilroy';
-  padding:0 104px;
+  margin-right: 104px;
   color: #333333;
   opacity: 0.3;
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
 }
 .finishtxt{
   font-family: 'Gilroy';
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
 }
 header{
   background:url("./images/logo.jpg");
@@ -351,6 +410,7 @@ position: relative;
 font-size: 18px;
 
 }
+
 .strt{
   font-family: 'Gilroy';
   color: #ffffff;
@@ -381,23 +441,29 @@ body{
   font-family: 'Gilroy';
   color: #ffffff;
   text-align: center;
-  padding: 136px;
+  padding-top: 136px;
+font-size: 48px;
+font-weight: 700;
+line-height: 1.4;
 }
 .newsbtn{
   font-family: 'Gilroy';
+  line-height: 1.4;
+  font-weight: 600;
+font-size: 18px;
+margin-top: 30px;
   color: #ffffff;
   background-color: #8D86C9;
   border: none;
-  margin-top: 20px;
-  padding:0px 20px 5px;
+  padding:10px 20px 10px;
 }
 .newblock{
   display: flex;
   gap: 25px;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: 80px;
-  margin-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 120px;
   text-align: center;
   width: 1344px;
 
@@ -420,20 +486,26 @@ body{
 .lastidia{
   font-family: 'Gilroy';
   width: 336px;
+  height: 87px;
   margin-right: 0px;
   margin-top: 15px;
+  font-weight: 600;
+font-size: 21px;
+line-height: 1.4;
 }
 .date{
   font-family: 'Gilroy';
   display: block;
   opacity: 0.5;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
   width: 336px;
 height: 20px;
 margin: 0;
+margin-top: 25px;
 }
-.newbtn{
-  padding-right: 239px;
-}
+
 .icon{
   position: absolute;
   top: 50%;
@@ -464,6 +536,7 @@ margin: 0;
 
 }
 .allcafe{
+  box-sizing: border-box;
   position: relative;
     width: 636px;
     height: 330px;
@@ -505,6 +578,7 @@ margin: 0;
   margin-bottom: 75px;
 }
 .cafen{
+  margin-bottom: 50px;
   width: 636px;
   height: 455px;
 }
@@ -527,13 +601,30 @@ margin: 0;
   margin-bottom: 25px;
 }
 .squadnames{
+  width: 107px;
+  height: 58px;
   font-family: 'Gilroy';
   font-weight: 600;
   font-size: 21px;
   line-height: 1.4;
+  margin-left: 37px;
+  margin-bottom: 15PX;
+}
+.squadnamesse{
+  width: 77px;
+  height: 58px;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+  margin-left: 67px;
   margin-bottom: 15PX;
 }
 .discteam{
+  width: 196px;
+height: 40px;
+font-weight: 400;
+font-size: 14px;
   font-family: 'Gilroy';
 }
 .game{
@@ -570,7 +661,7 @@ margin-left: auto;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.4;
-margin-bottom: 20px;
+margin-top: 20px;
 position: relative;
 width: 400px;
 font-weight: 400;
@@ -602,24 +693,21 @@ text-align: left;
 }
 .newshead{
   display: flex;
-  gap: 190px;
+  gap: 140px;
 }
 .svgyt{
   display: block;
   width: 36px;
   height: 36px;
   fill: white;
-  position: absolute;
-  transform: translate(100%,-25%);
-
+  position: relative;
 }
 .svgvk{
   display: block;
   width: 36px;
   height: 36px;
   fill: white;
-  position: absolute;
-  transform: translate(110%,-25%);
+  position: relative;
 
 }
 .svgytend{
@@ -627,22 +715,23 @@ text-align: left;
   width: 36px;
   height: 36px;
   fill: #8D86C9;
-  margin-left: 110px;
-  margin-top: 20px;
+}
+.end{
+  display: flex;
 }
 .svgvkend{
   display: block;
   width: 36px;
   height: 36px;
   fill: #8D86C9;
-  margin-top: 20px;
+
 }
 .svgtgend{
   display: block;
   width: 36px;
   height: 36px;
   fill: #8D86C9;
-  margin-top: 20px;
+
 }
 
 
@@ -705,7 +794,7 @@ line-height: 1.4;
   position: relative;
   width: 1290px;
   height: 610px;
-  margin-top: 80px;
+  padding-top: 80px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -714,6 +803,8 @@ line-height: 1.4;
   position: absolute;
   color: #333333;
   line-height: 1.4;
+  font-weight: 700;
+font-size: 36px;
 }
 .cortback{
   background: url(../images/clubcort.jpg);
@@ -747,8 +838,13 @@ line-height: 1.4;
   left: 70px;
   width: 145px;
 height: 45px;
+font-weight: 600;
+font-size: 18px;
 }
 .clubcap{
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.4;
   font-family: 'Gilroy';
 }
 .aboutclub{
@@ -774,7 +870,7 @@ height: 654px;
 height: 100px;
 text-align: left;
 line-height: 1.4;
-margin-left: auto;
+margin-left: 146px;
 margin-right: auto;
 margin-top: 70px;
 font-weight: 700;
@@ -786,11 +882,11 @@ margin-bottom: 40px;
   line-height: 1.4;
   margin-bottom: 25px;
   width: 650px;
-  margin-left: auto;
+  margin-left: 146px;
   margin-right: auto;
   font-weight: 400;
 font-size: 14px;
-text-align: center;
+text-align: left;
 }
 .disctription{
   font-family: 'Gilroy';
@@ -821,6 +917,9 @@ height: 40px;
 position: relative;
 }
 .corts{
+  margin-left: 50px;
+  margin-top: 60.8px;
+  margin-right: auto;
   text-align: center;
   display: flex;
   gap: 88px;
@@ -852,4 +951,75 @@ position: relative;
   background: url(../images/numthree.svg);
   position: absolute;
   left: -54px;
+}
+.rule{
+  font-family: 'Gilroy';
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+}
+.activerule{
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 21px;
+  margin-bottom: 40px;
+  line-height: 1.4;
+  color: #8D86C9;
+  padding-left: 31px;
+}
+.rool{
+  position: absolute;
+  font-family: 'Gilroy';
+  margin-bottom: 40px;
+  font-weight: 700;
+font-size: 36px;
+  line-height: 1.4;
+  top: -120px;
+}
+.rulesec .container{
+  position: relative;
+  display: flex;
+  gap: 104px;
+}
+.rule-ditail{
+  font-weight: 400;
+font-size: 14px;
+font-family: 'Gilroy';
+line-height: 1.4;
+margin-top: 10px;
+position: relative;
+}
+.rule-ditail::before{
+  content: "";
+  display: block;
+  width: 15px;
+height: 3px;
+background-color: var(--acsent);
+position: absolute;
+transform: translate(-100%, 10%);
+top: 5px;
+left: -15px;
+}
+.rulnum{
+  font-family: 'Gilroy';
+line-height: 1.4;
+font-weight: 600;
+font-size: 18px;
+margin-bottom: 25px;
+}
+.reginfo{
+  font-family: 'Gilroy';
+line-height: 1.4;
+font-weight: 400;
+font-size: 14px;
+margin-top: 25px;
+width: 856px;
+height: 260px;
+}
+.rulesec{
+  padding-bottom: 120px;
+  margin-top: 257px;
+  display: flex;
+  gap: 104px;
 }

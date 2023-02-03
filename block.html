@@ -20,7 +20,7 @@
 
   <header class="newshead">
     <div class="container">
-      <a href="./index.html">
+      <a href="./index.html" class="logobtn">
         <svg class="mainlogo">
           <use href="./images/svgicon.svg#icon"></use>
         </svg></a>
@@ -42,14 +42,16 @@
         
         
       </nav>
-      <a href="">
-        <svg class="svgyt">
-          <use href="./images/youtube.svg#yt"></use>  
-        </svg></a>
-        <a href="">
+      <ul class="svgicon"> 
+        <li><a href="">
+          <svg class="svgyt">
+            <use href="./images/youtube.svg#yt"></use>  
+          </svg></a></li>
+        <li><a href="">
           <svg class="svgvk">
             <use href="./images/vk.svg#vk"></use>
-          </svg></a>
+          </svg></a></li>
+      </ul>
     </div>
   </header>
 <main>
@@ -64,7 +66,7 @@
       <li><img src="./images/newsfirst.jpg"></li>
       <li class="date">22 июля 2022 года</li>
       <li class="lastidia"><h4>Consequat consequat augue quis urna arcu scelerisque ac montes, sed. Arcu orci quam lectus orci in.</h4></li>
-      <li class="newbtn"><button type="button" class="newsbtn"><br> Подробиці</button></li>
+      <li class="newbtn"><button type="button" class="newsbtn"> Подробиці</button></li>
       </ul>
     </li>
     <li>
@@ -72,7 +74,7 @@
       <li><img src="./images/newssec.jpg"></li>
       <li class="date">4 апреля 2022 года</li>
       <li class="lastidia"><h4>Suspendisse orci fermentum congue enim risus velit neque. Mi.</h4></li>
-      <li class="newbtn"><button type="button" class="newsbtn"><br> Подробиці</button></li>
+      <li class="newbtn"><button type="button" class="newsbtn">Подробиці</button></li>
       </ul>
     </li>
     <li>
@@ -80,7 +82,7 @@
       <li><img src="./images/newsthrie.jpg"></li>
       <li class="date">30 ноября 2021 года</li>
       <li class="lastidia"><h4>Interdum proin amet nibh tortor sed vulputate mattis. Ridiculus porta ipsum neque ut vel vitae et.</h4></li>
-      <li class="newbtn"><button type="button" class="newsbtn"><br> Подробиці</button></li>
+      <li class="newbtn"><button type="button" class="newsbtn">Подробиці</button></li>
       </ul>
     </li>
     <li>
@@ -88,7 +90,7 @@
       <li><img src="./images/newsfour.jpg"></li>
       <li class="date">22 июля 2022 года</li>
       <li class="lastidia"><h4>Nisl tempor vel tempor adipiscing id nulla magnis ut ultrices. Malesuada metus et in blandit.</h4></li>
-      <li class="newbtn"><button type="button" class="newsbtn"><br> Подробиці</button></li>
+      <li class="newbtn"><button type="button" class="newsbtn">Подробиці</button></li>
       </ul>
     </li>
     <li>
@@ -96,7 +98,7 @@
       <li><img src="./images/newsfive.jpg"></li>
       <li class="date">22 июля 2022 года</li>
       <li class="lastidia"><h4>Libero fermentum pretium sed orci nunc, sagittis mollis lacus dolor. Tincidunt et enim sed ac faucibus.</h4></li>
-      <li class="newbtn"><button type="button" class="newsbtn"><br> Подробиці</button></li>
+      <li class="newbtn"><button type="button" class="newsbtn">Подробиці</button></li>
       </ul>
     </li>
     <li>
@@ -104,7 +106,7 @@
         <li><img src="./images/newssix.jpg"></li>
         <li class="date">22 июля 2022 года</li>
         <li class="lastidia"><h4> Netus hendrerit tortor laoreet duis proin nulla faucibus ultricies. Et urna fringilla nunc, metus nec.</h4> </li>
-        <li class="newbtn"><button type="button" class="newsbtn"><br> Подробиці</button></li>
+        <li class="newbtn"><button type="button" class="newsbtn"> Подробиці</button></li>
       </ul>
     </li>
   </ul>
@@ -116,6 +118,7 @@
   <footer>
     <section>
       <div class="end">
+        <div class="container">
         <ul class="lasttxt">
           <li class="def">2022 © Усі права захищені.</li>
           <li class="finishtxt"><a href="./index.html" class="link">Главная</a></li>
@@ -125,28 +128,31 @@
             <li class="finishtxt"><a href="" class="link">Детский теннис</a></li>
             <li class="finishtxt"><a href="" class="link">Галерея</a></li>
             <li class="finishtxt"><a href="" class="link">Цены</a></li>
-            <li class="finishtxt"><a href="" class="link">Контакты</a></li>
             <li class="finishtxt"><a href="./block.html" class="link">Новини</a></li>
-            <li class="finishtxt" ><a href="">
-            <svg class="svgytend">
-              <use href="./images/youtube.svg#yt"> </use>  
-            </svg>
-            </li></a>
-            <li class="finishtxt" >
-             <a href="">
-              <svg class="svgvkend">
-              <use href="./images/vk.svg#vk">
-              </use>
-            </svg>
-          </a>
-            </li>
-            <li class="finishtxt">
-              <a href="">
-                <svg class="svgtgend">
-                  <use href="./images/tg.svg#tgicon"></use>
+            </ul>
+            <ul class="iconend">
+              <li class="finishtxt" ><a href="">
+                <svg class="svgytend">
+                  <use href="./images/youtube.svg#yt"> </use>  
+                </svg>
+              </a></li>
+                <li class="finishtxt" >
+                 <a href="">
+                  <svg class="svgvkend">
+                  <use href="./images/vk.svg#vk">
+                  </use>
                 </svg>
               </a>
-            </li>
+                </li>
+                <li class="finishtxt">
+                  <a href="">
+                    <svg class="svgtgend">
+                      <use href="./images/tg.svg#tgicon"></use>
+                    </svg>
+                  </a>
+                </li>
+            </ul>
+          </div>
       </div>
     </section>
   </footer>
